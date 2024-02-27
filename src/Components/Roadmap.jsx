@@ -84,7 +84,7 @@ const Roadmap = () => {
 
       {/* Swiper */}
       <Swiper
-        onSwiper={setSwiper} // Set Swiper instance to state
+        onSwiper={setSwiper}
         breakpoints={{
           340: {
             slidesPerView: 2,

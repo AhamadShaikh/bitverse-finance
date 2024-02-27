@@ -36,9 +36,9 @@ const OurProducts = () => {
         },
     ]
     return (
-        <div className='mt-[50px]'>
+        <div className='mt-[50px] flex flex-col gap-[20px]'>
             <div>
-                <div className='text-4xl flex justify-center'>
+                <div className='text-4xl flex justify-center m-[20px]'>
                     Our <span className='text-main-yellow'>Products</span>
                 </div>
                 <div className='flex justify-center'>

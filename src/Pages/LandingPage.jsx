@@ -4,6 +4,9 @@ import bank from "../assets/bank.png";
 import OurProducts from '../Components/OurProducts';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Roadmap from '../Components/Roadmap';
+import Tokens from '../Components/Tokens';
+import About from '../Components/About';
 
 const LandingPage = () => {
     React.useEffect(() => {
@@ -14,9 +17,9 @@ const LandingPage = () => {
             <div className='flex justify-center'>
                 <Navbar />
             </div>
-            <div>
-                <div className="text-center text-white mt-[100px] text-5xl">
-                    <div className="text-5xl" data-aos="fade-right"
+            <div className='text-center'>
+                <div className="text-center text-white mt-[100px] text-[100px]">
+                    <div className="" data-aos="fade-right"
                         data-aos-offset="200"
                         data-aos-delay="50"
                         data-aos-easing="ease-in-out"
@@ -52,7 +55,7 @@ const LandingPage = () => {
                         DEFI ON <span className="text-main-yellow">BITCOIN</span>
                     </div>
                 </div>
-                <div className="text-center text-white mt-5 w-[500px]">
+                <div className="text-center text-white mt-5">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eius suscipit, repellendus tempore, repudiandae
                 </div>
                 <div className='flex justify-center m-[20px]'>
@@ -61,6 +64,15 @@ const LandingPage = () => {
             </div>
             <div>
                 <OurProducts />
+            </div>
+            <div>
+                <Roadmap />
+            </div>
+            <div>
+                <Tokens />
+            </div>
+            <div>
+                <About />
             </div>
         </div>
     );

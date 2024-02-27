@@ -77,12 +77,12 @@ const Roadmap = () => {
         Previous
       </button>
 
-      {/* Next Button */}
+
       <button className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-main-yellow w-[100px] p-2 rounded-full shadow-md" onClick={goNext}>
         Next
       </button>
 
-      {/* Swiper */}
+
       <Swiper
         onSwiper={setSwiper}
         breakpoints={{

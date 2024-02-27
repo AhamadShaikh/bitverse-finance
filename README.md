@@ -1,44 +1,71 @@
 
-Certainly! Here's an example of a README file tailored to your project:
+# Bitverse Finance
 
-Roadmap Presentation
-Roadmap Presentation is a React application designed to showcase project milestones or phases in a visually appealing way using Swiper component.
-
-Table of Contents
-Installation
-Usage
-Features
-Technologies Used
-Contributing
-License
-Installation
-Clone the repository:
-
-git clone 
-Navigate to the project directory:
+Bitverse Finance is a comprehensive financial management platform designed to empower individuals and businesses with powerful tools for budgeting, expense tracking, investment management, and financial planning. With intuitive interfaces and robust features, Bitverse Finance simplifies the complexities of financial management, helping users make informed decisions, achieve their financial goals, and secure their financial future. Whether you're tracking expenses, analyzing investment portfolios, or planning for retirement, Bitverse Finance provides the tools and insights you need to take control of your finances with confidence.
 
 
-cd roadmap-presentation
-Install dependencies:
+## API Reference
+
+#### Get all items
+
+```http
+  https://bitverse-finance.onrender.com/api/tokens
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. https://bitverse-finance.onrender.com/api/tokens |
 
 
-npm install
-Usage
-Run the application:
 
-npm start
-Open your web browser and navigate to http://localhost:3000.
 
-Features
-Dynamically display project phases with titles, questions, and content.
-Responsive design with Swiper component for easy navigation through phases.
-Previous and Next buttons for manual navigation.
-Technologies Used
-React: JavaScript library for building user interfaces.
-Swiper: Touch-enabled slider library.
-Tailwind CSS: Utility-first CSS framework for styling.
-Contributing
-Contributions are welcome! Please feel free to open an issue or submit a pull request.
+## Installation
 
-License
-This project is licensed under the MIT License.
+Install react with npm
+
+```bash
+  npm install react
+```
+    
+## Screenshots
+
+![Screenshot (5532)](https://github.com/AhamadShaikh/bitverse-finance/assets/115461870/f4367514-e2fa-449b-ae0e-9c94f9dc915b)
+
+![Screenshot (5533)](https://github.com/AhamadShaikh/bitverse-finance/assets/115461870/3277bcf8-771a-4769-8cb1-1209f284f90c)
+
+![Screenshot (5534)](https://github.com/AhamadShaikh/bitverse-finance/assets/115461870/4535ec65-5a5f-44bc-8c2d-4c20eccd1b4f)
+
+![Screenshot (5535)](https://github.com/AhamadShaikh/bitverse-finance/assets/115461870/b47b5498-490a-47f6-ac0e-641dece0fd26)
+
+
+![Screenshot (5536)](https://github.com/AhamadShaikh/bitverse-finance/assets/115461870/efc38b85-7f82-484b-909f-8ea1421db853)
+![Screenshot (5524)](https://github.com/AhamadShaikh/bitverse-finance/assets/115461870/ea5da58a-c4f5-4b66-ac45-c4b902766f76)
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
+```
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+
+
+## Features
+
+- Animation
+- Slider Cards
+- Transition
+
+
+
+## Tech Stack
+
+**Client:** React, Redux, TailwindCSS
+
+**Server:** Node, Express
+
